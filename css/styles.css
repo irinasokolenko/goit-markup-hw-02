@@ -12,12 +12,10 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.66;
-    /* identical to box height, or 117% */
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    /* IRIS */
     color: #4D5AE5;
 }
 .header-iten {
@@ -25,21 +23,20 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
- /* identical to box height, or 150% */
     letter-spacing: 0.02em;
-     /* NAVY BLUE */
     color: #2E2F42;
 }
-.header-link {/* Body Medium */
+.header-link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
-    /* identical to box height, or 150% */
     letter-spacing: 0.02em;
-    /* NAVY BLUE */
     color: #2E2F42;
+}
+.header-link:hover {
+    color:#404BBF;
 }
 .header-info {
     font-style: normal;
@@ -53,9 +50,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
- /* identical to box height, or 150% */
-    letter-spacing: 0.02em;
-/* SLATE */
+     letter-spacing: 0.02em;
     color: #434455;
 }
 .section-name {
@@ -64,11 +59,9 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* or 107% */
-    text-align: center;
+      text-align: center;
     letter-spacing: 0.02em;
- /* WHITE */
-  color: #FFFFFF;
+   color: #FFFFFF;
 }
 .section-btn {
     font-family: 'Roboto';
@@ -76,12 +69,10 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-
- /* WHITE */
-
     color: #FFFFFF;
 }
+ .srction-btn:hover
+    color: #FFFFFF;
