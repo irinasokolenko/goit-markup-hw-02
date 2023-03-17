@@ -1,3 +1,30 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+.header {
+}
+.header-navgation {
+}
+.header-list {
+}
+.header-iten {
+}
+.header-link {/* Body Medium */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 0.02em;
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;
+}
+.header-info {
+}
+.header-tel {
+}
