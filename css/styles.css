@@ -1,16 +1,23 @@
 body {
-    font-family: "Raleway" , sans-serif;
+ font-family: "Roboto+Serif" , sans-serif;
 }
-.header {
-}
+ {
+ color: #434455}
+ {
+ background-color: #FFFFFF
+ }
+ :root {
+    --brand-color: #FFFFFF;
+  }
+ .header {
+ }
 .header-navgation {
 }
 .header-list {
-     font-family: 'Raleway';
-     font-style: normal;
+     font-family: "Raleway", sans-serif;
      font-weight: 800;
      font-size: 18px;
-     line-height: 1.66;
+     line-height: 1.17;
      display: flex;
      align-items: center;
      letter-spacing: 0.03em;
@@ -19,7 +26,6 @@ body {
 }
 
  .header-iten {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -27,16 +33,13 @@ body {
     color: #2E2F42;
 }
  .header-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #2E2F42;
-}
  .header-link:hover 
- .header-link:focus{
+ .header-link:focus
     color:#404BBF;
 }
  .header-info {
@@ -50,8 +53,6 @@ body {
     color:#404BBF;
 }
 .header-tel {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
