@@ -53,12 +53,13 @@ body {
     list-style: none
 }
  .header-info {
+    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color : #434455;
+    color: #434455;
  }
  .header-info :hover 
  .header-info:focus{
