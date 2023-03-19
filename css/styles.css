@@ -1,17 +1,17 @@
 body {
  font-family: "Roboto+Serif" , sans-serif;
 }
- {
- color: #434455}
- {
- background-color: #FFFFFF
- }
- :root {
-    --brand-color: #FFFFFF;
-  }
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
  .header {
  }
 .header-navgation {
+}
+.header-logo{
 }
 .header-list {
      font-family: "Raleway", sans-serif;
@@ -33,24 +33,16 @@ body {
     color: #2E2F42;
 }
  .header-link {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
- .header-link :hover 
- .header-link:focus{
-    color:#404BBF;
-}
-.link {
-  text-decoration: none;
-}
-.span {
-    color:#2e2f42
-}
-.header-list {
-    list-style: none
+ .header-link: :is (:hover, :focus) {
+ color:#404BBF;
 }
  .header-info {
     font-family: 'Roboto';
@@ -68,11 +60,13 @@ body {
 .link text-decoration:none
 
 .header-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.50;
-     letter-spacing: 0.02em;
-    color: #434455;
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5px;
+ letter-spacing: 0.02em;
+ color: #434455;
 }
  .header-info :hover 
  .header-info:focus{
@@ -83,6 +77,15 @@ body {
 .hero-title {
 }
 .hero-btn {
+ font-family: inherit;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5; 
+ display: flex;
+ align-items: center;
+ letter-spacing: 0.04em;
+ color: #FFFFFF;
  /* IRIS */
  background: #4D5AE5;
 }
