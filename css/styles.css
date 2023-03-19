@@ -3,7 +3,7 @@
 --second-title-color:#2E2F42;
 }
 body {
- font-family: "Roboto+Serif" , sans-serif;
+ font-family: "Roboto" , sans-serif;
 }
 .list {
     list-style: none;
@@ -12,6 +12,7 @@ body {
     text-decoration: none;
 }
  .header {
+ background: #2E2F42;
  }
 .header-navgation {
 }
@@ -26,6 +27,9 @@ body {
  letter-spacing: 0.03em;
  text-transform: uppercase;
  color: #4D5AE5;
+}
+ .logos {
+    color: #2E2F42;
 }
 .header-list {
      font-family: "Raleway", sans-serif;
@@ -156,6 +160,7 @@ body {
 }
  /*section 4*/
  .photo-person {
+ background-color: #FFFFFF
 }
 .photo-person-title {
  font-family: 'Roboto', sans-serif;;
@@ -168,11 +173,11 @@ body {
  text-transform: capitalize;
  color: #2E2F42;
 }
-.photo-person-list {
+ .photo-person-list {
 }
-.list {
+ .list {
 }
-.photo-person-name {
+ .photo-person-name {
  font-family: 'Roboto', sans-serif;;
  font-style: normal;
  font-weight: 500;
@@ -193,3 +198,39 @@ body {
  color: #434455;
 }
  /*footer*/
+ .footer-bottom {
+  background: #2E2F42;
+}
+.footer-bottom-web {
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 18px;
+ line-height: 1.17;
+ display: flex;
+ align-items: center;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+color: #4D5AE5;
+}
+.footer-bottom-studio {
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 18px;
+ line-height: 1.17;
+ display: flex;
+ align-items: center;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ color: #F4F4FD;
+}
+.footer-bottom-text {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 0.02em;
+ color: #F4F4FD;
+ }
