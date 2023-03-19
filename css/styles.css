@@ -11,7 +11,17 @@ body {
  }
 .header-navgation {
 }
-.header-logo{
+.header-logo {
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 18px;
+ line-height: 1.17;
+ display: flex;
+ align-items: center;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ color: #4D5AE5;
 }
 .header-list {
      font-family: "Raleway", sans-serif;
@@ -73,8 +83,8 @@ body {
  .header-info:focus{
     color:#404BBF;
  }
-/*section 1*/
-.hero {
+ /*section 1*/
+ .hero {
 }
  .hero-list {
  font-family: 'Roboto';
@@ -98,7 +108,29 @@ body {
  color: #FFFFFF;
  cursor: pointer;
 }
-.hero-btn :hover
-.hero-btn :focus {
+ .hero-btn :hover
+ .hero-btn :focus {
     color: #404BBF;
 }
+ /*section 2*/
+ .abaut {
+}
+.abaut-list {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 24px;
+ letter-spacing: 0.02em;
+ color: #2E2F42;
+}
+.abaut-text {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 0.02em;
+ color: #434455;
+}
+
