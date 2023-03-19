@@ -2,17 +2,15 @@
 --main-title-color:#4D5AE5;
 --second-title-color:#2E2F42;
 }
-body {
+ body {
  font-family: "Roboto" , sans-serif; color: #434455
-}
- background-color {
-    color:#FFFFFF
-}
-.list {
-    list-style: none;
+ background-color :#FFFFFF
 }
 .link {
     text-decoration: none;
+}
+.list {
+ list-style: none;
 }
  .header {
  background: #E7E9FC;
@@ -34,7 +32,8 @@ body {
 .logos {
     color: #2E2F42;
 }
-.header-link :is (:hover, :focus) {
+.header-link :hover 
+.header-link:focus {
     color : #2e2f42;
 }
 .header-list {
@@ -69,7 +68,8 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
- .header-link :is (:hover, :focus) {
+ .header-link :hover
+ .header-link :focus {
  color : #404BBF;
 }
  .header-info {
@@ -101,7 +101,6 @@ body {
  .header-info:focus{
     color:#404BBF;
  }
- /*section 1*/
  .hero {
 }
  .hero-list {
