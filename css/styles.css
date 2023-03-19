@@ -15,7 +15,7 @@ body {
     text-decoration: none;
 }
  .header {
- background: #2E2F42;
+ background: #E7E9FC;
  }
  .header-navgation {
 }
@@ -32,7 +32,10 @@ body {
  color: #4D5AE5;
 }
 .logos {
-    color: #FFFFFF;
+    color: #2E2F42;
+}
+.header-link :is (:hover, :focus) {
+    color : #2e2f42;
 }
 .header-list {
      font-family: "Raleway", sans-serif;
@@ -44,6 +47,7 @@ body {
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4D5AE5;
+
 }
  .header-iten {
     font-weight: 500;
@@ -51,6 +55,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+.header-iten :hover
+.header-iten :focus{
+    color:#404bbf 
 }
  .header-link {
     font-family: 'Roboto';
@@ -61,8 +69,8 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
- .header-link: :is (:hover, :focus) {
- color:#404BBF;
+ .header-link :is (:hover, :focus) {
+ color : #404BBF;
 }
  .header-info {
     font-family: 'Roboto';
