@@ -57,8 +57,9 @@ body {
  .header-info:focus{
     color:#404BBF;
 }
-.link text-decoration:none
-
+ .link {
+    text-decoration :none
+}
 .header-tel {
  font-family: 'Roboto';
  font-style: normal;
@@ -71,13 +72,22 @@ body {
  .header-info :hover 
  .header-info:focus{
     color:#404BBF;
-}
+ }
+/*section 1*/
 .hero {
 }
-.hero-title {
+ .hero-list {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 56px;
+ line-height: 1.07;
+ text-align: center;
+ letter-spacing: 0.02em;
+ color: #FFFFFF;
 }
-.hero-btn {
- font-family: inherit;
+ .hero-btn {
+ font-family: "Roboto", sans-serif;
  font-style: normal;
  font-weight: 500;
  font-size: 16px;
@@ -86,6 +96,9 @@ body {
  align-items: center;
  letter-spacing: 0.04em;
  color: #FFFFFF;
- /* IRIS */
- background: #4D5AE5;
+ cursor: pointer;
+}
+.hero-btn :hover
+.hero-btn :focus {
+    color: #404BBF;
 }
