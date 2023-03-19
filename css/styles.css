@@ -1,3 +1,7 @@
+:root {
+--main-title-color:#4D5AE5;
+--second-title-color:#2E2F42;
+}
 body {
  font-family: "Roboto+Serif" , sans-serif;
 }
@@ -34,7 +38,6 @@ body {
      text-transform: uppercase;
      color: #4D5AE5;
 }
-
  .header-iten {
     font-weight: 500;
     font-size: 16px;
@@ -116,21 +119,77 @@ body {
  .abaut {
 }
 .abaut-list {
- font-family: 'Roboto';
+ font-family: 'Roboto', sans-serif;;
  font-style: normal;
  font-weight: 500;
  font-size: 20px;
- line-height: 24px;
+ line-height: 1.2;
  letter-spacing: 0.02em;
  color: #2E2F42;
 }
 .abaut-text {
- font-family: 'Roboto';
+ font-family: 'Roboto', sans-serif;;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #434455;
+}
+ /*section 3*/
+ .photo-comp {
+}
+.photo-comp-title {
+ font-family: 'Roboto', sans-serif;;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.11;
+ text-align: center;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #2E2F42;
+}
+.photo-comp-list {
+}
+.list {
+}
+ /*section 4*/
+ .photo-person {
+}
+.photo-person-title {
+ font-family: 'Roboto', sans-serif;;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.11;
+  text-align: center;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #2E2F42;
+}
+.photo-person-list {
+}
+.list {
+}
+.photo-person-name {
+ font-family: 'Roboto', sans-serif;;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 1.2;
+ text-align: center;
+ letter-spacing: 0.02em;
+ color: #2E2F42;
+}
+.photo-person-text {
+ font-family: 'Roboto', sans-serif;;
  font-style: normal;
  font-weight: 400;
  font-size: 16px;
  line-height: 24px;
+ text-align: center;
  letter-spacing: 0.02em;
  color: #434455;
 }
-
+ /*footer*/
