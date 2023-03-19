@@ -2,9 +2,10 @@
 --main-title-color:#4D5AE5;
 --second-title-color:#2E2F42;
 }
- body {
- font-family: "Roboto" , sans-serif; color: #434455
- background-color :#FFFFFF
+.body {
+ font-family: "Roboto" , sans-serif; 
+ color: #434455;
+ background-color :#FFFFFF;
 }
 .link {
     text-decoration: none;
@@ -18,8 +19,6 @@
  .header-navgation {
 }
 .header-logo-web {
- font-family: 'Raleway', sans-serif;
- font-style: normal;
  font-weight: 800;
  font-size: 18px;
  line-height: 1.17;
@@ -37,7 +36,6 @@
     color : #2e2f42;
 }
 .header-list {
-     font-family: "Raleway", sans-serif;
      font-weight: 800;
      font-size: 18px;
      line-height: 1.17;
@@ -60,8 +58,6 @@
     color:#404bbf 
 }
  .header-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
@@ -73,8 +69,6 @@
  color : #404BBF;
 }
  .header-info {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -89,8 +83,6 @@
     text-decoration :none
 }
 .header-tel {
- font-family: 'Roboto';
- font-style: normal;
  font-weight: 400;
  font-size: 16px;
  line-height: 1.5px;
@@ -102,6 +94,12 @@
     color:#404BBF;
  }
  .hero {
+ position: absolute;
+ width: 1440px;
+ height: 0.42;
+ left: 0px;
+ top: 72px;
+ background: #2E2F42; 
 }
  .hero-list {
  font-family: 'Roboto';
@@ -128,6 +126,12 @@
  .hero-btn :hover
  .hero-btn :focus {
     color: #404BBF;
+ position: absolute;
+ width: 169px;
+ height: 0.33;
+ left: 636px;
+ top: 0.67;
+background: #4D5AE5;
 }
  /*section 2*/
  .abaut {
