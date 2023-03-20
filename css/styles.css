@@ -109,7 +109,7 @@ body {
  height: 0.42;
  left: 0px;
  top: 72px;
- coloor:var(--second-title-color)
+ background-color: var(--second-title-color);
 }
  .hero-list {
  font-family: 'Roboto';
@@ -130,7 +130,7 @@ body {
  align-items: center;
  letter-spacing: 0.04em;
  color: #FFFFFF;
- background-color: #4D5AE5
+ background-color: #4D5AE5;
  cursor: pointer;
 }
  .hero-btn :hover
@@ -178,11 +178,9 @@ body {
 }
  /*section 4*/
  .photo-person {
- background-color: #FFFFFF
+ background-color: #F4F4FD;
 }
 .photo-person-title {
- font-family: 'Roboto', sans-serif;;
- font-style: normal;
  font-weight: 700;
  font-size: 36px;
  line-height: 1.11;
@@ -190,6 +188,7 @@ body {
  letter-spacing: 0.02em;
  text-transform: capitalize;
  color: #2E2F42;
+ background-color: #FFFFFF;
 }
  .photo-person-list {
 }
@@ -219,8 +218,11 @@ body {
  .footer-bottom {
   background: #2E2F42;
 }
+.link {
+    text-decoration: none;
+}
 .footer-bottom-web {
- font-family: 'Raleway';
+ font-family: "Raleway", sans-serif;
  font-style: normal;
  font-weight: 800;
  font-size: 18px;
@@ -229,10 +231,10 @@ body {
  align-items: center;
  letter-spacing: 0.03em;
  text-transform: uppercase;
-color: #4D5AE5;
+ color: #4D5AE5;
 }
 .footer-bottom-studio {
- font-family: 'Raleway';
+ font-family: "Raleway", sans-serif;
  font-style: normal;
  font-weight: 800;
  font-size: 18px;
@@ -242,6 +244,9 @@ color: #4D5AE5;
  letter-spacing: 0.03em;
  text-transform: uppercase;
  color: #F4F4FD;
+}
+.footer-studio {
+color: #f4f4fd;
 }
 .footer-bottom-text {
  font-family: 'Roboto';
