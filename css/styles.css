@@ -44,7 +44,6 @@
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4D5AE5;
-
 }
  .header-iten {
     font-weight: 500;
@@ -55,7 +54,7 @@
 }
 .header-iten :hover
 .header-iten :focus{
-    color:#404bbf 
+    color:#404bbf;
 }
  .header-link {
     font-weight: 500;
@@ -63,8 +62,11 @@
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-transform: uppercase;
 }
- .header-link :hover
+ .header-link :hover {
+    color: #404BBF;
+ }
  .header-link :focus {
  color : #404BBF;
 }
@@ -74,13 +76,14 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-transform: uppercase;
  }
  .header-info :hover 
  .header-info:focus {
     color:#404BBF;
 }
  .link {
-    text-decoration :none
+    text-decoration :none;
 }
 .header-tel {
  font-weight: 400;
@@ -88,11 +91,13 @@
  line-height: 1.5px;
  letter-spacing: 0.02em;
  color: #434455;
+ text-transform: uppercase;
 }
  .header-info :hover 
  .header-info:focus{
     color:#404BBF;
  }
+ /*section 1*/
  .hero {
  position: absolute;
  width: 1440px;
@@ -125,13 +130,8 @@
 }
  .hero-btn :hover
  .hero-btn :focus {
-    color: #404BBF;
- position: absolute;
- width: 169px;
- height: 0.33;
- left: 636px;
- top: 0.67;
-background: #4D5AE5;
+ color: #404BBF;
+ 
 }
  /*section 2*/
  .abaut {
