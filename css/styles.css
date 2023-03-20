@@ -2,7 +2,7 @@
 --main-title-color:#4D5AE5;
 --second-title-color:#2E2F42;
 }
-.body {
+body {
  font-family: "Roboto" , sans-serif; 
  color: #434455;
  background-color :#FFFFFF;
@@ -19,6 +19,7 @@
  .header-navgation {
 }
 .header-logo-web {
+ font-family: "Raleway", sans-serif;
  font-weight: 800;
  font-size: 18px;
  line-height: 1.17;
@@ -27,13 +28,17 @@
  letter-spacing: 0.03em;
  text-transform: uppercase;
  color: #4D5AE5;
-}
+ }
+ .header-logo-web :hover
+ .header-logo-web :focus {
+    color: var(--main-title-color)
+ }
 .logos {
     color: #2E2F42;
 }
 .header-link :hover 
 .header-link:focus {
-    color : #2e2f42;
+    color : #404bbf;
 }
 .header-list {
      font-weight: 800;
@@ -82,7 +87,7 @@
  .header-info:focus {
     color:#404BBF;
 }
- .link {
+ .header-info {
     text-decoration :none;
 }
 .header-tel {
@@ -104,7 +109,7 @@
  height: 0.42;
  left: 0px;
  top: 72px;
- background: #2E2F42; 
+ coloor:var(--second-title-color)
 }
  .hero-list {
  font-family: 'Roboto';
@@ -117,8 +122,7 @@
  color: #FFFFFF;
 }
  .hero-btn {
- font-family: "Roboto", sans-serif;
- font-style: normal;
+ font-family: inherit;
  font-weight: 500;
  font-size: 16px;
  line-height: 1.5; 
@@ -126,12 +130,12 @@
  align-items: center;
  letter-spacing: 0.04em;
  color: #FFFFFF;
+ background-color: #4D5AE5
  cursor: pointer;
 }
  .hero-btn :hover
  .hero-btn :focus {
  color: #404BBF;
- 
 }
  /*section 2*/
  .abaut {
