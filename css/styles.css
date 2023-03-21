@@ -34,13 +34,21 @@ body {
 .link {
 }
 .logo-web {
-    color: var(--second-okean-color);
+    color: var(--second-title-color);
 }
 .header-list {
+
 }
 .list {
 }
 .header-iten {
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+}
+.header-iten :hover,
+:focus {
+color: #434455;
 }
 .header-link {
  font-weight: 500;
@@ -101,10 +109,11 @@ body {
  align-items: center;
  letter-spacing: 0.04em;
  color: #FFFFFF;
- background-color: #4D5AE5;
  cursor: pointer;
 }
- .hero-btn :hover
+ .hero-btn :hover {
+    background-color: #404BBF;
+ }
  .hero-btn :focus {
  background-color: #404BBF;
 }
