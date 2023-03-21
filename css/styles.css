@@ -31,7 +31,10 @@ body {
  align-items: center;
  letter-spacing: 0.03em;
  text-transform: uppercase;
- color: var(--main-title-color);
+}
+.header-logo :hover,
+ :focus {
+    color:var(--main-title-color)
 }
 .link {
 }
@@ -69,9 +72,11 @@ color: #434455;
 .header-address {
     font-style: normal;
 }
-.header-address-list {
+.header-address-list :hover, :focus {
+ color: #404bbf;
 }
-.header-address-iten {
+.header-address-iten :hover, :focus {
+    color: #404bbf;
 }
 .header-address-link {
  font-size: 16px;
