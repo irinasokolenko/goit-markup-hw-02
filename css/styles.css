@@ -106,7 +106,7 @@ body {
 }
  .hero-btn :hover
  .hero-btn :focus {
- color: #404BBF;
+ background-color: #404BBF;
 }
  /*section 2*/
  .abaut {
@@ -158,21 +158,20 @@ body {
  text-align: center;
  letter-spacing: 0.02em;
  text-transform: capitalize;
- background-color: #FFFFFF;
-}
+ color: var(--second-title-color);
+ }
  .photo-person-list {
 }
  .list {
 }
  .photo-person-name {
- font-family: 'Roboto', sans-serif;;
- font-style: normal;
  font-weight: 500;
  font-size: 20px;
  line-height: 1.2;
  text-align: center;
  letter-spacing: 0.02em;
  color: #2E2F42;
+ background-color: #FFFFFF;
 }
 .photo-person-text {
  font-family: 'Roboto', sans-serif;;
@@ -202,6 +201,7 @@ body {
  letter-spacing: 0.03em;
  text-transform: uppercase;
  color: #4D5AE5;
+ text-decoration: none;
 }
 .footer-bottom-studio {
  font-family: "Raleway", sans-serif;
