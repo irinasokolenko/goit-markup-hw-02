@@ -37,7 +37,11 @@ body {
     color: var(--second-title-color);
 }
 .header-list {
-
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #2E2F42;
 }
 .list {
 }
@@ -47,7 +51,7 @@ body {
  letter-spacing: 0.02em;
 }
 .header-iten :hover,
-:focus {
+ :focus {
 color: #434455;
 }
 .header-link {
@@ -56,9 +60,10 @@ color: #434455;
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: var(--second-title-color);
+ text-decoration: none;
 }
 .header-link:hover,
-:focus {
+ :focus {
     color: var(--second-okean-color);
 }
 .header-address {
