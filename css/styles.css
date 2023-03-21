@@ -91,9 +91,6 @@ color: #434455;
  /*section 1*/
  .hero {
  position: absolute;
- width: 1440px;
- left: 0px;
- top: 20;
  background-color: var(--second-title-color);
 }
  .hero-list {
@@ -156,10 +153,6 @@ color: #434455;
  text-transform: capitalize;
  color: #2E2F42;
 }
-.photo-comp-list {
-}
-.list {
-}
  /*section 4*/
  .photo-person {
  background-color: #FFFFFF
@@ -191,7 +184,7 @@ color: #434455;
  font-style: normal;
  font-weight: 400;
  font-size: 16px;
- line-height: 24px;
+ line-height: 1.5;
  text-align: center;
  letter-spacing: 0.02em;
  color: #434455;
