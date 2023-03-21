@@ -72,17 +72,10 @@ color: #434455;
 .header-address {
     font-style: normal;
 }
-.header-address-list :hover, :focus {
- color: #404bbf;
-}
-.header-address-iten :hover, :focus {
-    color: #404bbf;
-}
 .header-address-link {
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
- color: var(--second-slate-color);
 }
 .header-address-link :hover {
     color: var(--second-okean-color);
@@ -91,13 +84,16 @@ color: #434455;
     color: var(--second-okean-color);
 }
 .header-adder-iten {
+ font-size: inherit;
+ line-height: inherit;
+ letter-spacing: inherit;
 }
  /*section 1*/
  .hero {
  position: absolute;
  width: 1440px;
  left: 0px;
- top: 72px;
+ top: 20;
  background-color: var(--second-title-color);
 }
  .hero-list {
@@ -121,11 +117,9 @@ color: #434455;
  color: #FFFFFF;
  cursor: pointer;
 }
- .hero-btn :hover {
-    background-color: #404BBF;
- }
- .hero-btn :focus {
- background-color: #404BBF;
+.hero-btn :hover,
+:focus {
+    color: #404BBF;
 }
  /*section 2*/
  .abaut {
@@ -168,7 +162,7 @@ color: #434455;
 }
  /*section 4*/
  .photo-person {
- background-color: #F4F4FD;
+ background-color: #FFFFFF
 }
 .photo-person-title {
  font-weight: 700;
