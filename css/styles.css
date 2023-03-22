@@ -139,7 +139,8 @@ body {
  background: #4D5AE5;
 }
 .hero-btn :hover,
-.hero-btn :focus { background-color: var(--second-okean-color);
+.hero-btn :focus { 
+    background-color: var(--second-okean-color);
 }
  /*section 2*/
  .abaut {
