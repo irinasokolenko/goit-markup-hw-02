@@ -34,7 +34,7 @@ body {
 }
 .header-logo :hover,
  :focus {
-    color:var(--main-title-color)
+ color:var(--main-title-color)
 }
 .link {
 }
@@ -191,7 +191,7 @@ color: #434455;
 }
  /*footer*/
  .footer-bottom {
-  background: #2E2F42;
+  background: var(--second-title-color);
 }
 .link {
     text-decoration: none;
@@ -233,3 +233,35 @@ color: #f4f4fd;
  letter-spacing: 0.02em;
  color: #F4F4FD;
  }
+ /**button portfolio**/
+ .batton {
+    list-style: none;
+}
+.list {
+}
+.section1-h1 {
+}
+.batton-roll-all {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: 0.04em;
+ color: #FFFFFF;
+}
+.batton-roll {
+  font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 24px;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: 0.04em;
+ color: #4D5AE5;
+}
