@@ -97,8 +97,12 @@ body {
  font-size: inherit;
  line-height: inherit;
  letter-spacing: inherit;
- color: inherit;
 }
+header-adder-iten :hover,
+ :focus {
+    color: #404BBF;
+ }
+
  /*section 1*/
  .hero {
  position: absolute;
