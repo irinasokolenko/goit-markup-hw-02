@@ -94,9 +94,10 @@ body {
  color: #434455;
 }
 .header-adder-iten {
- font-size: inherit;
- line-height: inherit;
- letter-spacing: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 header-adder-iten :hover,
  :focus {
