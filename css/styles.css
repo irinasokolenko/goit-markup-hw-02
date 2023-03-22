@@ -109,6 +109,7 @@ body {
  /*section 1*/
  .hero {
  position: absolute;
+ background-color: #2E2F42;
 }
  .hero-list {
  font-family: 'Roboto';
@@ -125,6 +126,11 @@ body {
  backgroud-color :hover,
  :focus {
     color: var(--second-okean-color);
+ }
+ .batton 
+ backgroud-color :hover,
+ :focus {
+    color: #404BBF;
  }
  .hero-btn {
  font-family: inherit;
