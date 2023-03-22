@@ -127,10 +127,9 @@ body {
  :focus {
     color: var(--second-okean-color);
  }
- .batton 
- backgroud-color :hover,
+ .batton  :hover,
  :focus {
-    color: #404BBF;
+    color: var(--second-okean-color)
  }
  .hero-btn {
  font-family: inherit;
