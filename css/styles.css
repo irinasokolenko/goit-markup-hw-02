@@ -189,6 +189,7 @@ body {
  letter-spacing: 0.02em;
  text-transform: capitalize;
  color: var(--second-title-color);
+ background-color: #FFFFFF;
  }
  .photo-list {
  background-color: #FFFFFF
