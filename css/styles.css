@@ -109,7 +109,6 @@ body {
  /*section 1*/
  .hero {
  position: absolute;
- background-color: var(--second-title-color);
 }
  .hero-list {
  font-family: 'Roboto';
@@ -121,11 +120,6 @@ body {
  letter-spacing: 0.02em;
  color: #FFFFFF;
 }
-.hero-list 
- backgroud-color :hover,
- :focus {
-    color: var(--second-okean-color);
- }
  .hero-btn {
  font-family: inherit;
  font-weight: 500;
@@ -136,10 +130,8 @@ body {
  letter-spacing: 0.04em;
  color: #FFFFFF;
  cursor: pointer;
- background-color: #4D5AE5;
 }
-.hero-btn 
- background-color  :hover,
+.hero-btn  :hover,
  :focus {
     color: #404BBF;
 }
