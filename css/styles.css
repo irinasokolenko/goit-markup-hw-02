@@ -138,10 +138,11 @@ body {
  cursor: pointer;
  background: #4D5AE5;
 }
-.hero-btn 
- background-color  :hover,
- :focus {
-    color: #404BBF;
+.hero-btn :hover {
+    background-color: #404BBF;
+}
+.hero-btn :focus {
+    background-color: #404BBF;
 }
  /*section 2*/
  .abaut {
