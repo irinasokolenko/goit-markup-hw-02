@@ -179,7 +179,7 @@ body {
 }
  /*section 4*/
  .photo-person {
- background-color: #FFFFFF
+ background-color: #F4F4FD;
 }
 .photo-person-title {
  font-weight: 700;
@@ -190,7 +190,8 @@ body {
  text-transform: capitalize;
  color: var(--second-title-color);
  }
- .photo-person-list {
+ .photo-list {
+ background-color: #FFFFFF
 }
  .list {
 }
