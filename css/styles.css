@@ -99,7 +99,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-header-adder-iten :hover,
+.header-adder-iten :hover,
  :focus {
     color: #404BBF;
  }
