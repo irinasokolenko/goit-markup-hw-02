@@ -81,17 +81,17 @@ body {
 .header-address {
     font-style: normal;
 }
+.header-address :hover {
+    color: #404BBF;
+}
+.header-address :focus {
+    color: #404BBF;
+}
 .header-address-link {
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: #434455;
-}
-.header-address-link :hover {
-    color: var(--second-okean-color);
-}
-.header-address-link :focus {
-    color: var(--second-okean-color);
 }
 .header-adder-iten {
  font-size: inherit;
