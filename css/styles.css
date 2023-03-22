@@ -52,11 +52,15 @@ body {
 .list {
 }
 .header-iten {
-
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #2E2F42;
 }
 .header-iten :hover,
  :focus {
-color: #434455;
+ color: #434455;
 }
 .header-link {
  font-weight: 500;
@@ -66,8 +70,10 @@ color: #434455;
  color: var(--second-title-color);
  text-decoration: none;
 }
-.header-link :hover,
- :focus {
+.header-link :hover {
+    color: var(--second-okean-color);
+}
+.header-link :focus {
     color: var(--second-okean-color);
 }
 .header-address {
