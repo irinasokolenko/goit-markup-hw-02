@@ -97,13 +97,8 @@ body {
  font-size: inherit;
  line-height: inherit;
  letter-spacing: inherit;
+ color: inherit;
 }
-.header-adder-iten.header :hover {
-  color: var(--second-okean-color);
-}
-.header-adder-iten.header :focus {
-    color: var(--second-okean-color);
-  }
  /*section 1*/
  .hero {
  position: absolute;
