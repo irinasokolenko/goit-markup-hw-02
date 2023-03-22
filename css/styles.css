@@ -99,8 +99,10 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.header-adder-iten :hover,
- :focus {
+.header-adder-iten :hover {
+    color: #404BBF;
+}
+.header-adder-iten :focus {
     color: #404BBF;
  }
 
