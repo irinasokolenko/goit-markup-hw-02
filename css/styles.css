@@ -181,7 +181,7 @@ body {
  .photo-person {
  background-color: #F4F4FD;
 }
-.photo-person-title {
+.photo-title {
  font-weight: 700;
  font-size: 36px;
  line-height: 1.11;
@@ -195,6 +195,7 @@ body {
  background-color: #FFFFFF
 }
  .list {
+ list-style: none;
 }
  .photo-person-name {
  font-weight: 500;
@@ -264,6 +265,7 @@ color: #f4f4fd;
     list-style: none;
 }
 .list {
+    
 }
 .section1-h1 {
 }
