@@ -37,6 +37,7 @@ body {
  color:var(--main-title-color)
 }
 .link {
+    color: #4D5AE5;
 }
 .logo-web {
  color: var(--second-title-color);
@@ -76,6 +77,7 @@ color: #434455;
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
+ color: #434455;
 }
 .header-address-link :hover {
     color: var(--second-okean-color);
@@ -88,6 +90,12 @@ color: #434455;
  line-height: inherit;
  letter-spacing: inherit;
 }
+.header-adder-iten.header :hover {
+  color: var(--second-okean-color);
+}
+.header-adder-iten.header :focus {
+    color: var(--second-okean-color);
+  }
  /*section 1*/
  .hero {
  position: absolute;
@@ -103,6 +111,11 @@ color: #434455;
  letter-spacing: 0.02em;
  color: #FFFFFF;
 }
+.hero-list 
+ backgroud-color :hover,
+ :focus {
+    color: var(--second-okean-color);
+ }
  .hero-btn {
  font-family: inherit;
  font-weight: 500;
@@ -113,9 +126,10 @@ color: #434455;
  letter-spacing: 0.04em;
  color: #FFFFFF;
  cursor: pointer;
+ background-color: #4D5AE5;
 }
 .hero-btn :hover,
-:focus {
+ :focus {
     color: #404BBF;
 }
  /*section 2*/
@@ -191,7 +205,7 @@ color: #434455;
 }
  /*footer*/
  .footer-bottom {
-  background: var(--second-title-color);
+  background: var(--second-title-color)
 }
 .link {
     text-decoration: none;
