@@ -258,6 +258,7 @@ color: #f4f4fd;
  align-items: center;
  text-align: center;
  letter-spacing: 0.04em;
+ color: var(--main-title-color);
  }
 
 .batton-roll-web-site {
