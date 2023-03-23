@@ -192,7 +192,7 @@ body {
  color: #2E2F42;
 }
 .person-list {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .list {
     list-style: none;
@@ -217,7 +217,7 @@ body {
 }
  /*footer*/
  .footer-bottom {
-  background: var(--second-title-color)
+  background: var(--second-title-color);
 }
 .link {
     text-decoration: none;
