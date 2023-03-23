@@ -263,8 +263,8 @@ color: #f4f4fd;
  cursor: pointer;
  color: #4D5AE5;
  }
- .batton-roll:hover, 
- .batton-roll:focus {
+ .batton-all:hover, 
+ .batton-all:focus {
     color: #FFFFFF;
  background-color: #F4F4FD;
 }
