@@ -5,6 +5,7 @@
 --second-slate-color: #434455;
 --main-title-color: #FFFFFF;
 --footer-color: #E7E9FC;
+--fon-cloud-color:#F4F4FD;
 }
 body {
  font-family: "Roboto" , sans-serif; 
@@ -179,7 +180,7 @@ body {
 }
  /*section 4*/
  .section-photo-person{
-  background-color:#F4F4FD;
+  background-color:var(--fon-cloud-color);
 }
 .person-title {
  font-weight: 700;
