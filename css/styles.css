@@ -180,7 +180,7 @@ body {
  /*section 4*/
  .section-photo-person{
   position: absolute;
- background: #F4F4FD;
+ background-color:#F4F4FD;
 }
 .person-title {
  font-weight: 700;
