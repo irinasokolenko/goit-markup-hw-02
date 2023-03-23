@@ -258,21 +258,24 @@ color: #f4f4fd;
  align-items:center;
  text-align:center;
  letter-spacing: 0.04em;
-  cursor:pointer;
   color: var(--main-title-color);
+  cursor:pointer;
 }
  .batton-roll {
-    background-color: var(--fon-cloud-color)
+    background-color: #f4f4fd;
  }
  .batton-roll:hover, 
- .batton-roll:focus {
+ :focus {
     color: #FFFFFF;
  background-color: #F4F4FD;
 }
 .batton-roll:hover,
-.batton-roll:focus { 
-background-color: #404BBF ;
+:focus { 
+background-color: #404BBF;
  } 
+ .batton-roll{
+    background-color: var(--second-okean-color);
+ }
  .person-item-list {
     list-style: none;
     text-decoration: none;
