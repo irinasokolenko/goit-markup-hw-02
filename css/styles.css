@@ -264,7 +264,7 @@ color: #f4f4fd;
  }
  .batton-roll{
     color: var(--main-title-color);
-    background-color: var(--fon-cloud-color);
+    background-color: var(--fon-cloud-color)
  }
  .batton-roll:hover, 
  .batton-roll:focus {
