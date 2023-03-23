@@ -179,7 +179,8 @@ body {
 }
  /*section 4*/
  .photo-person {
- background-color: #F4F4FD;
+ position: absolute;
+ background: #F4F4FD;
 }
 .person-title {
  font-weight: 700;
@@ -188,27 +189,28 @@ body {
  text-align: center;
  letter-spacing: 0.02em;
  text-transform: capitalize;
- color: var(--second-title-color);
- background-color: #FFFFFF;
- }
- .person-list {
- background-color: #FFFFFF;
- }
+ color: #2E2F42;
+}
+.person-list {
+    background-color: #FFFFFF
+}
+.list {
+    list-style: none;
+}
+.person-item {
+    background: #FFFFFF;
+}
 .photo-person-name {
  font-weight: 500;
  font-size: 20px;
- line-height: 1.2;
+ line-height: 1.20;
  text-align: center;
  letter-spacing: 0.02em;
  color: #2E2F42;
- background-color: #FFFFFF;
 }
-.photo-item-text {
- font-family: 'Roboto', sans-serif;;
- font-style: normal;
- font-weight: 400;
+.person-item-text {
  font-size: 16px;
- line-height: 1.5;
+ line-height: 1.50;
  text-align: center;
  letter-spacing: 0.02em;
  color: #434455;
