@@ -274,31 +274,43 @@ color: #f4f4fd;
 .batton-roll:focus { 
 background-color: #404BBF ;
  } 
- .person-item-list {
+
+ 
+
+.person-item-list {
     list-style: none;
     text-decoration: none;
 }
 .list {
 }
+.list-link {
+}
+.link {
+}
 .photo-person {
- font-weight: 500;
- font-size: 20px;
- line-height: 1.20;
- letter-spacing: 0.02em;
- color: var(--second-title-color)
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color); 
 }
 .person-item-text {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
- color: var(--second-slate-color);
- text-decoration: n;
+ color: #434455;
+}
+.person-item {
+}
+.photo-person-name {
 }
 .person-item1 {
-    font-weight: 500;
- font-size: 20px;
- line-height: 1.20;
- letter-spacing: 0.02em;
- color: var(--second-title-color)
 }
+.person-item2 {
+}
+
+
 
