@@ -12,6 +12,14 @@ body {
  color: #434455;
  background-color :#FFFFFF;
 }
+.btn {
+    background-color: var(--fon-cloud-color);
+ }
+ .btn :hover,
+ :focus {
+    color: #FFFFFF;
+ }
+
 .link {
     text-decoration: none;
 }
@@ -260,14 +268,8 @@ color: #f4f4fd;
  letter-spacing: 0.04em;
  color:#4d5ae5;
  }
- .batton-roll-all {
-background-color: var(--fon-cloud-color);
- }
- .batton-roll-all :hover,
- :focus {
-    color: #FFFFFF;
- }
-.batton-roll-web-site {
+  .batton-roll-all 
+ .batton-roll-web-site {
     font-family: 'Roboto'sans-serif;
     font-style: normal;
     font-weight: 500;
