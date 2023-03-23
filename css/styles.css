@@ -248,34 +248,55 @@ color: #f4f4fd;
  color: #F4F4FD;
  }
  /**button portfolio**/
- .batton {
-    list-style: none;
+ .header {
+}
+.header-nav-link {
+}
+.link {
+}
+.header-logo {
+}
+.logo-web {
+}
+.header-list {
 }
 .list {
+}
+.header-iten {
+}
+.header-link {
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-iten {
+}
+.header-address-link {
+}
+.batton {
 }
 .section1-h1 {
 }
 .batton-roll-all {
- font-family: 'Roboto';
- font-style: normal;
- font-weight: 500;
- font-size: 16px;
- line-height: 1.5;
- display: flex;
- align-items: center;
- text-align: center;
- letter-spacing: 0.04em;
- color: #FFFFFF;
 }
 .batton-roll {
-  font-family: 'Roboto';
- font-style: normal;
- font-weight: 500;
- font-size: 16px;
- line-height: 24px;
- display: flex;
- align-items: center;
- text-align: center;
- letter-spacing: 0.04em;
- color: #4D5AE5;
+}
+.section-photo-person {
+}
+.person-list {
+}
+.person-item {
+}
+.photo-person-name {
+}
+.person-item-text {
+}
+.footer-bottom-link {
+}
+.footer-bottom-web {
+}
+.footer-studio {
+}
+.footer-bottom-text {
 }
