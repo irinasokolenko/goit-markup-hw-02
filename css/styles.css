@@ -273,13 +273,26 @@ color: #f4f4fd;
 .batton-roll:focus { 
 background-color: #404BBF ;
  } 
-.batton-roll{
+ .person-item-list {
+    list-style: none;
+    text-decoration: none;
 }
-.batton-roll-Design {
+.list {
 }
-.batton-roll-Marketing {
+.photo-person {
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 1.20;
+ letter-spacing: 0.02em;
+ color: var(--second-title-color)
 }
-.photo-person-name{
-   list-style: none;
-   text-decoration: none; 
+.person-item-text {
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: var(--second-slate-color);
+ text-decoration: none;
 }
+.person-item {
+}
+
