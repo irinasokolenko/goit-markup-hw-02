@@ -259,17 +259,15 @@ color: #f4f4fd;
  text-align: center;
  letter-spacing: 0.04em;
  color: var(--main-title-color);
- background-color: var(--second-okean-color);
+ background-color:var(--second-okean-color);
  cursor: pointer;
- color: #4D5AE5;
+ color: var(--main-title-color);
  }
- .batton-all:hover, 
- .batton-all:focus {
+ .batton-roll:hover, 
+ .batton-roll:focus {
     color: #FFFFFF;
  background-color: #F4F4FD;
 }
-
- 
 .batton-roll-App {
 }
 .batton-roll-Design {
