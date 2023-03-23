@@ -181,6 +181,13 @@ body {
  .photo-person {
  position: absolute;
  background: #F4F4FD;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.11;
+ text-align: center;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #2E2F42;
 }
 .person-title {
  font-weight: 700;
