@@ -292,8 +292,12 @@ color: #f4f4fd;
   color: #FFFFFF;
   text-decoration: none;
 }
+.batton-roll-all
+backgroud-color :hover,
+:focus {color: var(--fon-cloud-color)
+} 
 .batton-roll {
- font-family: 'Roboto'? sans-serif;
+ font-family: 'Roboto', sans-serif;
  font-style: normal;
  font-weight: 500;
  font-size: 16px;
@@ -302,7 +306,9 @@ color: #f4f4fd;
  align-items: center;
  text-align: center;
  letter-spacing: 0.04em;
- color: #4D5AE5;
+ color: var(--main-title-color);
+ background-color: var(--fon-cloud-color);
+ 
 }
 .section-photo-person {
 }
