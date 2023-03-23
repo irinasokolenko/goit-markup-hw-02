@@ -179,10 +179,10 @@ body {
  color: #2E2F42;
 }
  /*section 4*/
- .section-photo-person {
-  background-color: var(--fon-cloud-color);
+ .section-photo-person{
+  background-color:var(--fon-cloud-color)
 }
-.section-person-title {
+.person-title {
  font-weight: 700;
  font-size: 36px;
  line-height: 1.11;
@@ -191,11 +191,11 @@ body {
  text-transform: capitalize;
  color: #2E2F42;
 }
-.section-person-list {
-   
+.person-list {
+    background-color:#F4F4FD;
 }
 .list {
- list-style: none;
+ list-style:none;
 }
 .person-item {
  background-color: #FFFFFF;
