@@ -260,6 +260,7 @@ color: #f4f4fd;
  letter-spacing: 0.04em;
   cursor:pointer;
   color: var(--main-title-color);
+  color: #4d5ae5;
 }
  .batton-roll {
     background-color: var(--fon-cloud-color)
@@ -293,6 +294,11 @@ background-color: #404BBF ;
  color: var(--second-slate-color);
  text-decoration: n;
 }
-.person-item {
+.person-item1 {
+    font-weight: 500;
+ font-size: 20px;
+ line-height: 1.20;
+ letter-spacing: 0.02em;
+ color: var(--second-title-color)
 }
 
