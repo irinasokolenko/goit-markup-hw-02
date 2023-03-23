@@ -280,3 +280,7 @@ color: #f4f4fd;
 }
 .batton-roll-Marketing {
 }
+.person-item{
+   list-style: none;
+   text-decoration: none; 
+}
