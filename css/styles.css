@@ -268,10 +268,7 @@ color: #f4f4fd;
  background-color:#F4F4FD;
 }
 .batton-roll:hover,:focus{background-color:#404BBF;
- } 
- .batton-roll{
- background-color:var(--second-okean-color);
- }
+}
  .person-item-list {
     list-style: none;
     text-decoration: none;
