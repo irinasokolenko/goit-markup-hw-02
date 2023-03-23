@@ -260,10 +260,6 @@ color: #f4f4fd;
  letter-spacing: 0.04em;
  background-color: var(--fon-cloud-color);
  }
-  .batton-roll-all :hover,
-  :focus {
-    color: #FFFFFF;
-  }
  .batton-roll-web-site {
     font-family: 'Roboto'sans-serif;
     font-style: normal;
