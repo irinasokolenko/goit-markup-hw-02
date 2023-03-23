@@ -198,7 +198,7 @@ body {
  list-style:none;
 }
 .person-item {
- background-color: #FFFFFF;
+    background-color: var(--fon-cloud-color);
 }
 .photo-person-name {
  font-weight: 500;
