@@ -262,6 +262,10 @@ color: #f4f4fd;
  color: var(--main-title-color);
  background-color:var(--second-okean-color);
  }
+ .batton-roll{
+    color: var(--main-title-color);
+    background-color: var(--fon-cloud-color);
+ }
  .batton-roll:hover, 
  .batton-roll:focus {
     color: #FFFFFF;
@@ -271,7 +275,7 @@ color: #f4f4fd;
 .batton-roll:focus { 
 background-color: #404BBF ;
  } 
-.batton-roll-App {
+.batton-roll{
 }
 .batton-roll-Design {
 }
