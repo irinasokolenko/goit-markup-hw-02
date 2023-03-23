@@ -248,79 +248,44 @@ color: #f4f4fd;
  color: #F4F4FD;
  }
  /**button portfolio**/
- .header {
-}
-.header-nav-link {
-}
-.link {
-}
-.header-logo {
-    
-}
-.logo-web {
-}
-.header-list {
-}
-.list {
-}
-.header-iten {
-}
-.header-link {
-}
-.header-address {
-}
-.header-address-list {
-}
-.header-address-iten {
-}
-.header-address-link {
-}
-.batton {
-}
-.section1-h1 {
-}
-.batton-roll-all {
- font-family: 'Roboto', sans-serif;
- font-style: normal;
- font-weight: 500;
- font-size: 16px;
- line-height: 1.5;
-  display: flex;
- align-items: center;
- text-align: center;
- letter-spacing: 0.04em;
- color: var(--main-title-color);
- background-color: var(--fon-cloud-color)
-  text-decoration: none;
-}
-.batton-roll {
+ .batton-roll-all {
  font-family: 'Roboto', sans-serif;
  font-style: normal;
  font-weight: 500;
  font-size: 16px;
  line-height: 1.50;
- display: flex;
+  display: flex;
  align-items: center;
  text-align: center;
  letter-spacing: 0.04em;
+ cursor: pointer;
  color: var(--main-title-color);
  background-color: var(--fon-cloud-color)
- }
-.section-photo-person {
 }
-.person-list {
+.batton-roll-all :hover,
+:focus {color: var(--fon-cloud-color)
 }
-.person-item {
+
+.batton-roll-web-site {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+     display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--main-title-color);
+    background-color: var(--fon-cloud-color)
+   }
+   .batton-roll-web-site :hover,
+   :focus {color: var(--fon-cloud-color)
+   }
+.batton-roll-App {
 }
-.photo-person-name {
+.batton-roll-Design {
 }
-.person-item-text {
-}
-.footer-bottom-link {
-}
-.footer-bottom-web {
-}
-.footer-studio {
-}
-.footer-bottom-text {
+.batton-roll-Marketing {
 }
