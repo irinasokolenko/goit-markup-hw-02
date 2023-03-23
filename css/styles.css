@@ -258,7 +258,8 @@ color: #f4f4fd;
  align-items: center;
  text-align: center;
  letter-spacing: 0.04em;
- background-color: var(--main-title-color)
+ color: var(--main-title-color);
+ background-color: var(--second-okean-color);
  cursor: pointer;
  }
  .batton-roll-web-site {
