@@ -259,8 +259,6 @@ color: #f4f4fd;
  text-align: center;
  letter-spacing: 0.04em;
   cursor: pointer;
- color: var(--main-title-color);
- background-color:var(--second-okean-color);
  }
  .batton-roll{
     color: var(--main-title-color);
