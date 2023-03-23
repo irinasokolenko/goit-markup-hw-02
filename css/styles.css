@@ -180,7 +180,7 @@ body {
 }
  /*section 4*/
  .section-photo-person {
-  background-color:var(--fon-cloud-color);
+  background-color: var(--fon-cloud-color);
 }
 .person-title {
  font-weight: 700;
