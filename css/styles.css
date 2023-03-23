@@ -265,7 +265,7 @@ color: #f4f4fd;
     background-color: var(--fon-cloud-color)
  }
  .batton-roll:hover, 
- :focus {
+ .batton-roll:focus {
     color: #FFFFFF;
  background-color: #F4F4FD;
 }
@@ -291,7 +291,7 @@ background-color: #404BBF ;
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: var(--second-slate-color);
- text-decoration: none;
+ text-decoration: n;
 }
 .person-item {
 }
