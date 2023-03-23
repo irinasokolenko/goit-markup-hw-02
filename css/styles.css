@@ -217,7 +217,7 @@ body {
 }
  /*footer*/
  .footer-bottom {
-  background: var(--second-title-color);
+  background: var(--second-title-color)
 }
 .link {
     text-decoration: none;
