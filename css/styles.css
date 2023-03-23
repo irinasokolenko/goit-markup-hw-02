@@ -167,7 +167,7 @@ body {
  .photo-comp {
 }
 .photo-comp-title {
- font-family: 'Roboto', sans-serif;;
+ font-family: 'Roboto', sans-serif;
  font-style: normal;
  font-weight: 700;
  font-size: 36px;
@@ -178,15 +178,8 @@ body {
  color: #2E2F42;
 }
  /*section 4*/
- .photo-person {
- font-weight: 700;
- font-size: 36px;
- line-height: 1.11;
- text-align: center;
- letter-spacing: 0.02em;
- text-transform: capitalize;
- color: var(--second-title-color);
- position: absolute;
+ .section-photo-person{
+  position: absolute;
  background: #F4F4FD;
 }
 .person-title {
@@ -205,13 +198,6 @@ body {
     list-style: none;
 }
 .person-item {
-    font-weight: 700;
- font-size: 36px;
- line-height: 1.11;
- text-align: center;
- letter-spacing: 0.02em;
- text-transform: capitalize;
- color: #2E2F42;
  background: #FFFFFF;
 }
 .photo-person-name {
