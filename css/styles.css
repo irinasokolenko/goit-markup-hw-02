@@ -258,16 +258,19 @@ color: #f4f4fd;
  align-items: center;
  text-align: center;
  letter-spacing: 0.04em;
+  cursor: pointer;
  color: var(--main-title-color);
  background-color:var(--second-okean-color);
- cursor: pointer;
- color: var(--main-title-color);
  }
  .batton-roll:hover, 
  .batton-roll:focus {
     color: #FFFFFF;
  background-color: #F4F4FD;
 }
+.batton-roll:hover,
+.batton-roll:focus { 
+background-color: #404BBF ;
+ } 
 .batton-roll-App {
 }
 .batton-roll-Design {
