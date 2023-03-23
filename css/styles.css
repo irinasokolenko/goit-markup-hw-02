@@ -262,6 +262,11 @@ color: #f4f4fd;
  background-color: var(--second-okean-color);
  cursor: pointer;
  }
+ .batton-roll:hover, 
+ .batton-roll:focus {
+    color: #FFFFFF;
+  }
+
  .batton-roll-web-site {
     font-family: 'Roboto'sans-serif;
     font-style: normal;
