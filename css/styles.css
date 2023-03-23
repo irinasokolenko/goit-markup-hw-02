@@ -292,10 +292,6 @@ color: #f4f4fd;
   color: #FFFFFF;
   text-decoration: none;
 }
-.batton-roll-all
-backgroud-color :hover,
-:focus {color: var(--fon-cloud-color)
-} 
 .batton-roll {
  font-family: 'Roboto', sans-serif;
  font-style: normal;
