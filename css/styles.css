@@ -181,7 +181,7 @@ body {
  .photo-person {
  background-color: #F4F4FD;
 }
-.photo-person-title {
+.person-title {
  font-weight: 700;
  font-size: 36px;
  line-height: 1.11;
@@ -191,12 +191,10 @@ body {
  color: var(--second-title-color);
  background-color: #FFFFFF;
  }
- .pphoto-person-list {
- background-color: #FFFFFF
-}
- .list {
-}
- .photo-person-name {
+ .person-list {
+ background-color: #FFFFFF;
+ }
+.photo-person-name {
  font-weight: 500;
  font-size: 20px;
  line-height: 1.2;
@@ -205,7 +203,7 @@ body {
  color: #2E2F42;
  background-color: #FFFFFF;
 }
-.photo-person-text {
+.photo-item-text {
  font-family: 'Roboto', sans-serif;;
  font-style: normal;
  font-weight: 400;
