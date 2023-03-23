@@ -195,10 +195,10 @@ body {
    
 }
 .list {
- list-style:none;
+ list-style: none;
 }
 .person-item {
-    background-color: var(--fon-cloud-color);
+ background-color: #FFFFFF;
 }
 .photo-person-name {
  font-weight: 500;
