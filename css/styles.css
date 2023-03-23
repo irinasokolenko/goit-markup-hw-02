@@ -258,11 +258,11 @@ color: #f4f4fd;
  align-items:center;
  text-align:center;
  letter-spacing: 0.04em;
-  color: var(--main-title-color);
   cursor:pointer;
+  color: var(--main-title-color);
 }
  .batton-roll {
-    background-color: #f4f4fd;
+    background-color: var(--fon-cloud-color)
  }
  .batton-roll:hover, 
  :focus {
@@ -270,8 +270,8 @@ color: #f4f4fd;
  background-color: #F4F4FD;
 }
 .batton-roll:hover,
-:focus { 
-background-color: #404BBF;
+.batton-roll:focus { 
+background-color: #404BBF ;
  } 
  .person-item-list {
     list-style: none;
