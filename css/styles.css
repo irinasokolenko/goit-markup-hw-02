@@ -262,9 +262,9 @@ color: #f4f4fd;
   color: var(--main-title-color);
   color: #4d5ae5;
 }
- .batton-roll {
+ .batton-roll{
     background-color: var(--fon-cloud-color)
- }
+}
  .batton-roll:hover, 
  .batton-roll:focus {
     color: #FFFFFF;
@@ -278,8 +278,8 @@ background-color: #404BBF ;
  
 
 .person-item-list {
-    list-style: none;
-    text-decoration: none;
+    list-style:none;
+    text-decoration:none;
 }
 .list {
 }
