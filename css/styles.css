@@ -31,9 +31,8 @@ body {
  letter-spacing: 0.03em;
  text-transform: uppercase;
 }
-.logo-web
- color: {
-var(--second-title-color);
+.logo-web{
+    color: var(--main-title-color)
 }
 .header-list {
  font-weight: 500;
