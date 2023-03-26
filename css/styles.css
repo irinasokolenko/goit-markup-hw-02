@@ -3,14 +3,14 @@
 --second-title-color:#2E2F42;
 --second-okean-color:#404BBF;
 --second-slate-color: #434455;
---main-title-color: #FFFFFF;
+--main-white-color: #FFFFFF;
 --footer-color: #E7E9FC;
 --fon-cloud-color:#F4F4FD;
 }
 body {
  font-family: "Roboto" , sans-serif; 
- color: #434455;
- background-color :#FFFFFF;
+ color: var(--second-slate-color);
+ background-color: var(--main-white-color);
 }
 .link {
     text-decoration: none;
@@ -28,20 +28,12 @@ body {
  font-weight: 800;
  font-size: 18px;
  line-height: 1.17;
- display: flex;
- align-items: center;
  letter-spacing: 0.03em;
  text-transform: uppercase;
 }
-.header-logo :hover,
- :focus {
- color:var(--main-title-color)
-}
-.link {
-    color: #4D5AE5;
-}
-.logo-web {
- color: var(--second-title-color);
+.logo-web
+ color: {
+var(--second-title-color);
 }
 .header-list {
  font-weight: 500;
@@ -109,18 +101,15 @@ body {
 
  /*section 1*/
  .hero {
- position: absolute;
  background-color: var(--second-title-color);
 }
  .hero-list {
- font-family: 'Roboto';
- font-style: normal;
  font-weight: 700;
  font-size: 56px;
  line-height: 1.07;
  text-align: center;
  letter-spacing: 0.02em;
- color: #FFFFFF;
+ color: var(--main-white-color)
 }
 .hero-list 
  backgroud-color :hover,
@@ -147,36 +136,27 @@ body {
  .abaut {
 }
 .abaut-list {
- font-family: 'Roboto', sans-serif;
- font-style: normal;
  font-weight: 500;
  font-size: 20px;
  line-height: 1.2;
  letter-spacing: 0.02em;
- color: #2E2F42;
+ color: var(--second-title-color);
 }
 .abaut-text {
- font-family: 'Roboto', sans-serif;;
- font-style: normal;
- font-weight: 400;
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
- color: #434455;
+ color: var(--second-slate-color)
 }
  /*section 3*/
- .photo-comp {
-}
 .photo-comp-title {
- font-family: 'Roboto', sans-serif;
- font-style: normal;
  font-weight: 700;
  font-size: 36px;
  line-height: 1.11;
  text-align: center;
  letter-spacing: 0.02em;
  text-transform: capitalize;
- color: #2E2F42;
+ color:var(--second-title-color)
 }
  /*section 4*/
  .section-photo-person{
@@ -189,16 +169,16 @@ body {
  text-align: center;
  letter-spacing: 0.02em;
  text-transform: capitalize;
- color: #2E2F42;
+ color: var(--second-title-color)
 }
 .person-list {
-    background-color:#F4F4FD;
+    background-color:var(--fon-cloud-color)
 }
 .list {
  list-style:none;
 }
 .person-item {
- background-color: #FFFFFF;
+ background-color: var(--main-white-color)
 }
 .photo-person-name {
  font-weight: 500;
@@ -206,21 +186,18 @@ body {
  line-height: 1.20;
  text-align: center;
  letter-spacing: 0.02em;
- color: #2E2F42;
+ color:var(--second-title-color)
 }
 .person-item-text {
  font-size: 16px;
  line-height: 1.50;
  text-align: center;
  letter-spacing: 0.02em;
- color: #434455;
+ color: var(--second-slate-color)
 }
  /*footer*/
  .footer-bottom-link {
   background-color: var(--second-title-color)
-}
-.link {
-    text-decoration: none;
 }
 .footer-bottom-web {
  font-family: "Raleway", sans-serif;
@@ -236,16 +213,13 @@ body {
  text-decoration: none;
 }
 .footer-studio {
-color: #f4f4fd;
+color:var(--fon-cloud-color)
 }
 .footer-bottom-text {
- font-family: 'Roboto';
- font-style: normal;
- font-weight: 400;
  font-size: 16px;
  line-height: 24px;
  letter-spacing: 0.02em;
- color: #F4F4FD;
+ color: var(--fon-cloud-color)
  }
  /**button portfolio**/
  .batton-roll{
@@ -254,12 +228,10 @@ color: #f4f4fd;
  font-weight:500;
  font-size:16px;
  line-height:1.50;
- display: flex;
  align-items:center;
  text-align:center;
  letter-spacing: 0.04em;
   cursor:pointer;
-  color: var(--main-title-color);
   color: #4d5ae5;
 }
  .batton-roll{
@@ -274,18 +246,9 @@ color: #f4f4fd;
 .batton-roll:focus { 
 background-color: #404BBF ;
  } 
-
- 
-
 .person-item-list {
     list-style:none;
     text-decoration:none;
-}
-.list {
-}
-.list-link {
-}
-.link {
 }
 .photo-person {
     font-weight: 500;
@@ -294,23 +257,8 @@ background-color: #404BBF ;
     letter-spacing: 0.02em;
     color: var(--second-title-color); 
 }
-.person-item-text {
- font-family: 'Roboto';
- font-style: normal;
- font-weight: 400;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #434455;
-}
-.person-item {
-}
-.photo-person-name {
-}
-.person-item1 {
-}
-.person-item2 {
-}
+
+
 
 
 
