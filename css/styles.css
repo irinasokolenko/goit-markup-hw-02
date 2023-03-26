@@ -30,9 +30,10 @@ body {
  line-height: 1.17;
  letter-spacing: 0.03em;
  text-transform: uppercase;
+ color: var(--main-title-color);
 }
 .logo-web{
-    color: var(--main-title-color)
+    color:var(--second-title-color);
 }
 .header-list {
  font-weight: 500;
